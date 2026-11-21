@@ -17,3 +17,8 @@ variable "vpc_tags" {
   type    = map(any)
   default = {}
 }
+
+variable "igw_tags" {
+  type = map
+  default = {}
+}
