@@ -8,12 +8,12 @@ variable "environment" {
 
 #optional
 variable "vpc_cidr" {
-  type = string
+  type    = string
   default = "10.0.0.0/16"
 }
 
 #optional
 variable "vpc_tags" {
-  type = map
+  type    = map(any)
   default = {}
 }
